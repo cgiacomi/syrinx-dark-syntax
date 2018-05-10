@@ -1,13 +1,15 @@
 {
   "name": "syrinx-dark-syntax",
   "theme": "syntax",
-  "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "version": "0.0.1",
+  "description": "A syntax theme based on Atom's One Dark, with lower contrast and italics.",
   "keywords": [
+    "dark",
+    "blue",
     "syntax",
-    "theme"
+    "italics"
   ],
-  "repository": "https://github.com/atom/syrinx-dark-syntax",
+  "repository": "https://github.com/cgiacomi/syrinx-dark-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
