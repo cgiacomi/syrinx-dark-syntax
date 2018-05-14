@@ -3,6 +3,14 @@
 .syntax--comment {
   color: @syntax-color-comment;
 
+  &.syntax--line.syntax--double-slash {
+    font-style: italic;
+  }
+
+  &.syntax--block.syntax--documentation {
+    font-style: italic;
+  }
+
   .syntax--markup.syntax--link {
     color: @syntax-color-comment;
     text-decoration: none;
