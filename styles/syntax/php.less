@@ -1,11 +1,41 @@
 .syntax--source.syntax--php {
-  .syntax--class.syntax--bracket {
-    color: @mono-1;
+  // .syntax--meta {
+  //   &.syntax--function-call {
+  //     color: @syntax-color-function;
+  //
+  //     &.syntax--static {
+  //       font-style: italic;
+  //     }
+  //   }
+  //
+  //   &.syntax--string-contents {
+  //     color: @syntax-color-string;
+  //   }
+  // }
+
+  .syntax--punctuation.syntax--definition.syntax--variable {
+    color: @syntax-color-keyword;
   }
+
+  // .syntax--support.syntax--other.syntax--namespace.syntax--use {
+  //   color: @syntax-color-class;
+  // }
 }
 
-.syntax--entity.syntax--php {
-  &.syntax--name.syntax--type {
-     color: @hue-6-2;
-  }
-}
+
+
+// .syntax--source.syntax--php {
+//   .syntax--class.syntax--bracket {
+//     color: @mono-1;
+//   }
+//
+//   .syntax--support.syntax--class {
+//     color: @hue-3;
+//   }
+// }
+//
+// .syntax--entity.syntax--php {
+//   &.syntax--name.syntax--type {
+//      color: @hue-6-2;
+//   }
+// }
