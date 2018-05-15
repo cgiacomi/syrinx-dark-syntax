@@ -1,0 +1,53 @@
+.syntax--source.syntax--python {
+
+  .syntax--string {
+    &.syntax--quoted {
+      &.syntax--single,
+      &.syntax--double {
+        &.syntax--block {
+          font-style: italic;
+          color: @syntax-color-comment;
+        }
+      }
+    }
+  }
+
+  .syntax--string {
+    &.syntax--quoted {
+      &.syntax--single,
+      &.syntax--double {
+        &.syntax--block > .syntax--punctuation {
+          &.syntax--definition {
+            &.syntax--string {
+              &.syntax--begin,
+              &.syntax--end {
+                font-style: italic;
+                color: @syntax-color-comment;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .syntax--comment.syntax--line.syntax--number-sign {
+    font-style: italic;
+  }
+
+  .syntax--storage.syntax--type.syntax--class {
+    font-style: italic;
+  }
+
+  .syntax--support.syntax--function.syntax--magic {
+    font-style: italic;
+  }
+
+  .syntax--variable.syntax--language.syntax--self {
+    font-style: italic;
+  }
+
+  .syntax--keyword.syntax--control.syntax--statement {
+    font-style: italic;
+  }
+}
