@@ -22,6 +22,7 @@ Currently supported languages:
 - html
 - php
 - python
+- javascript
 - typescript
 
 
