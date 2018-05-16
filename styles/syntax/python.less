@@ -12,24 +12,13 @@
     }
   }
 
-  .syntax--string {
-    &.syntax--quoted {
-      &.syntax--single,
-      &.syntax--double {
-        &.syntax--block > .syntax--punctuation {
-          &.syntax--definition {
-            &.syntax--string {
-              &.syntax--begin,
-              &.syntax--end {
-                font-style: italic;
-                color: @syntax-color-comment;
-              }
-            }
-          }
-        }
-      }
-    }
+
+  .syntax--block .syntax--begin,
+  .syntax--block .syntax--end {
+    font-style: italic;
+    color: @syntax-color-comment;;
   }
+
 
   .syntax--comment.syntax--line.syntax--number-sign {
     font-style: italic;
