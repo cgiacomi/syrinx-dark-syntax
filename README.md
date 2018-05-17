@@ -11,10 +11,13 @@ Nord Atom Syntax: https://github.com/arcticicestudio/nord-atom-syntax
 Currently Italics are available on the following:
 
 - class
+- struct (go)
 - constructor
 - this
+- self (python)
 - return
 - comments
+- control flow
 
 
 Currently supported languages:
@@ -24,6 +27,6 @@ Currently supported languages:
 - python
 - javascript
 - typescript
-
+- go
 
 For Licensing for this project and for Nord Atom Syntax see LICENSE.md
