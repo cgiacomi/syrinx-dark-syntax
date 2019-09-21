@@ -24,8 +24,11 @@
     font-style: italic;
   }
 
-  .syntax--storage.syntax--type.syntax--class {
-    font-style: italic;
+  .syntax--storage.syntax--type {
+    &.syntax--class,
+    &.syntax--function {
+      font-style: italic;
+    }
   }
 
   .syntax--support.syntax--function.syntax--magic {

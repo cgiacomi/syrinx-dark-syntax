@@ -1,7 +1,7 @@
 {
   "name": "syrinx-dark-syntax",
   "theme": "syntax",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "A syntax theme based on Artic Ice Studio Nord and Nord Atom Syntax with some personal touches and italics.",
   "keywords": [
     "dark",
